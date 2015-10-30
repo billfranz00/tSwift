@@ -55,32 +55,36 @@ header {
 
 /*======= Popular Songs ========*/
 
-#work a {
-	text-decoration: none;
+h4.text-center {
+	color: white;
+	margin: 0 20% 0 15%;
+}
+
+h4.hidden1 {
+	color: black;
+	position: relative;
+	bottom: 70px;
+	right: 20px;
+	border: 10px;
+	cursor: pointer;
+	z-index: -1;
+	font-weight: bold;
 }
 
 #work img {
 	width: 90%;
 }
 
-.shake h4 {
-	display: none;
+.shake {
+	opacity: 0.5;
 }
 
-.shake1 {
-	opacity: 0.25;
+.showUp {
+	
 }
 
-.shake1 h4 {
-	margin-top: -70px;
-	color: black;
-	font-size: 20px;
-}
+.bounce
 
-#a2 h4,
-#a3 h4, #a6 h4 {
-	margin-right: 25px;
-}
 
 /*=========== Contact Info ===========*/
 
@@ -95,7 +99,7 @@ header {
 }
 
 #contact .opacity {
-    background-color: rgba(27 ,27, 27, 0.75);
+    background-color: rgba(27 ,27, 27, 0.70);
     min-height: 550px;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -127,36 +131,5 @@ footer h5 {
 	position: relative;
 	margin-top: -40px;
 	margin-left: 50px;
-	}
-
-	#work div {
-		margin: 20px;
-	}
-
-	#work img {
-		width: 100%;
-	}
-
-	.shake h4 {
-		display: none;
-	}
-
-	.shake1 {
-		opacity: 0.25;
-	}
-
-	.shake1 h4 {
-		margin-top: 0;
-		position: absolute;
-		top: 50px;
-		left: 60px;
-		color: black;
-		font-weight: bold;
-		font-size: 30px;
-	}
-
-	#a2 h4,
-	#a3 h4, #a6 h4 {
-		margin-right: 25px;
 	}
 }
