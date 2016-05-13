@@ -7,11 +7,12 @@
 }
 
 .draggin {
-	margin-top: 13px;
-	margin-left: 5px;
+	left: 60px;
+	margin-top: -35px;
 	font-weight: bold;
 	font-family: Verdana;
 	color: white;
+	position: absolute;
 }
 
 /*========== The Header Man ================*/
@@ -79,12 +80,6 @@ h4.hidden1 {
 	opacity: 0.5;
 }
 
-.showUp {
-	
-}
-
-.bounce
-
 
 /*=========== Contact Info ===========*/
 
@@ -126,10 +121,19 @@ footer h5 {
 	font-family: cursive;
 }
 
+@media (max-width: 1000px) {
+
+	.born {
+		font-size: 12px;
+	}
+}
+
 @media (max-width: 767px) {
 	.draggin {
-	position: relative;
-	margin-top: -40px;
-	margin-left: 50px;
+		left: 45px;
+	}
+
+	.born {
+		font-size: 14px;
 	}
 }
