@@ -18,7 +18,7 @@
 /*========== The Header Man ================*/
 
 header {
-	background: url('http://cdn2.hellogiggles.com/wp-content/uploads/2015/05/26/taylor-swift-performing-in-sacramento-_1.jpg') no-repeat center center;
+	background: url('http://www.hdwallpaperup.com/wp-content/uploads/2015/08/Taylor-Swift-HD-Wallpapers.jpg') no-repeat center center;
 	padding: 50px 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -29,7 +29,8 @@ header {
 .overlay {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	color: #F1F1F1;
+	color: #fff;
+	text-shadow: 0 0 10px black;
 }
 
 .overlay h1 {
